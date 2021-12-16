@@ -1,3 +1,6 @@
+from datetime import date
+from calendar import monthrange
+
 qns = input("Is it for this month? ")
 
 if qns.upper()=="YES":
